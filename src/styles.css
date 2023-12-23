@@ -1,10 +1,67 @@
-h1 {
+body {
+    font-family: "poppins", sans-serif; 
+    font-weight: 100;
+    background-color: black;
+}
 
-font-family: Playfair Display, sans-serif; 
-font-size: 48px;
-font-weight: 700;
-line-height: 64px;
-letter-spacing: 0em;
-text-align: center;
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 140px 0;  
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1.5; 
+}
+
+header h2 {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 2; 
+}
+
+header h3 {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 2; 
+    letter-spacing: 3px; 
+}
+
+header a {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: lightgrey;
+    display: inline-block;
+   
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0 
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+     h2 {
+        font-size: 15px;
+     }
+     h3 {
+        font-size: 15px;
+     }
 }
