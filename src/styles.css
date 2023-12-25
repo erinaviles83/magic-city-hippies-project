@@ -29,10 +29,9 @@ body {
 }
 
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
     display: block;
-    width: 370px; 
-    height: 230px
+   
 }
 .img-responsive-1 {
     max-width: 100%;
@@ -47,10 +46,18 @@ section {
     padding: 100px;
 }
 
+
 .secondary-section {
     background-color: lightgray;
 }
 
+.secondary-section h2 {
+    font-size: 20px;
+}
+
+.secondary-section h3 {
+    margin: 20px 0 10px 0;
+}
 main {
     color: white;
 } 
@@ -96,7 +103,7 @@ text-align: left;
 
 .card h4 {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1; 
     letter-spacing: 3px; 
     font-style: italic;
@@ -107,6 +114,7 @@ text-align: left;
 li {
    list-style: decimal;
    text-align: left;
+   font-size: 16px;
 }
 
 .btn {
