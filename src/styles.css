@@ -40,12 +40,20 @@ body {
     padding: 50px;
 }
 
+
 section {
     max-width: 100%;
     margin: 0 auto;
     padding: 100px;
 }
 
+.youtube-embeds {
+    display: grid;
+    max-width: 50%;
+    width: Hug (370px); 
+    height: Hug (770px); 
+    gap: 30px; 
+}
 
 .secondary-section {
     background-color: lightgray;
@@ -58,6 +66,13 @@ section {
 .secondary-section h3 {
     margin: 20px 0 10px 0;
 }
+
+.third-section h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 main {
     color: white;
 } 
