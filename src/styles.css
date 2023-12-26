@@ -40,19 +40,16 @@ body {
     padding: 50px;
 }
 
+.youtube-embeds iframe {
+    width: 100%;
+    height: 125%;
+    display: block;
+}
 
 section {
     max-width: 100%;
     margin: 0 auto;
     padding: 100px;
-}
-
-.youtube-embeds {
-    display: grid;
-    max-width: 50%;
-    width: Hug (370px); 
-    height: Hug (770px); 
-    gap: 30px; 
 }
 
 .secondary-section {
@@ -67,10 +64,16 @@ section {
     margin: 20px 0 10px 0;
 }
 
+.third-section {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 100px;
+}
+
 .third-section h2 {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 main {
@@ -199,10 +202,10 @@ footer {
 
 footer h4 {
     font-family: "poppins", sans-serif;
-font-size: 16px;
-font-weight: 300;
-line-height: 32px;
-letter-spacing: 0em;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
 }
 
 footer p {
